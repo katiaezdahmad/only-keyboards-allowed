@@ -17,16 +17,26 @@ html {
 }
 
 .btn:not(.btn-ghost) {
-  background-color: #8d483b;
-  border-color: #8d483b;
+  background-color: #cfddff;
+  border-color: #1f3a80;
+  color: #000;
 }
 
 .btn:not(.btn-ghost):hover {
-  background-color: #e88681;
+  background-color: blue;
+  color: #fff;
+  border-color: #597aff;
+}
+
+.btn-ghost {
+  background-color: #ff938a;
+  border-color: #e65045;
 }
 
 .btn-ghost:hover {
-  background-color: rgba(180, 220, 255, .5);
+  background-color: #66231f;
+  color: #fff;
+  border-color: #ff938a;
 }
 
 .masthead {
@@ -36,6 +46,10 @@ html {
 .masthead-title {
   position: relative;
   z-index: 2;
+}
+
+a:focus {
+  outline: 3px solid white;
 }
 
 .masthead-title::after {
@@ -53,14 +67,15 @@ html {
 }
 
 .masthead a {
-  border-bottom: .2em solid rgba(255, 255, 255, .6);
+  border-bottom: .2em solid yellow;
 
   color: #fff;
   text-decoration: none;
 }
 
 .masthead a:hover {
-  background-color: rgba(180, 220, 255, .3);
+  background-color: yellow;
+  color: #000;
 }
 
 .techniques {
